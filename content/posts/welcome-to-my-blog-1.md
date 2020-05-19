@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/whatsapp-image-2020-04-26-at-16.35.30.jpeg
+cover_image: /images/uploads/whatsapp-image-2020-04-26-at-16.35.30.jpeg
 title: Welcome to my Blog
 date: 2020-05-19T14:45:04.885Z
 published: true
