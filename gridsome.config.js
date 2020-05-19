@@ -9,7 +9,7 @@
 module.exports = {
   siteName: ' Love Otudor',
   siteDescription: 'Mobile Development Blog by Love Otudor.',
-  siteUrl: '',
+  siteUrl: 'https://loveotudor.netlify.app',
   templates: {
     Post: '/:title',
     Tag: '/tag/:id'
@@ -44,13 +44,13 @@ module.exports = {
         feedOptions: {
           title: 'Love Otudor',
           description: 'A blog on mobile development, and my journey as woman in tech. Written by Love Otudor, Mobile Developer',
-          feed_url: '',
-          site_url: ''
+          feed_url: 'https://loveotudor.netlify.app/rss.xml',
+          site_url: 'https://loveotudor.netlify.app'
         },
         feedItemOptions: node => ({
           title: node.title,
           date: node.date,
-          url: 'https://lo/' + node.slug,
+          url: 'https://loveotudor.netlify.app' + node.slug,
           description: node.description
         }),
         output: {
