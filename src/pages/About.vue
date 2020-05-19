@@ -111,7 +111,7 @@ export default {
       flex-direction: column;
 
       .bio {
-        width: 22em;
+        width: 16rem;
         text-align: center;
       }
 

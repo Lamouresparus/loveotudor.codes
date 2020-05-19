@@ -60,6 +60,13 @@ export default {
   max-width: 500px;
   text-align: center;
   padding: calc(var(--space) / 2) 0;
+  overflow-wrap: break-word;
+  
+  @media(max-width: 650px){
+    &__intro {
+      word-break: break-all;
+    }
+  }
 
   &__image {
     border-radius: 100%;
