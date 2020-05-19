@@ -90,7 +90,7 @@ export default {
   }
 }
 .bio {
-  width: 32em;
+  width: 32rem;
   margin-right: 20px;
   text-align: left;
 }
