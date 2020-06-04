@@ -1,14 +1,15 @@
 ---
-cover_image: /images/uploads/whatsapp-image-2020-04-26-at-16.35.30.jpeg
+image: /images/uploads/imag1213.jpg
 title: Welcome to my Blog
 date: 2020-05-19T14:45:04.885Z
 published: true
+canonical_url: true
+cover_image: /images/uploads/whatsapp-image-2020-04-26-at-16.35.30.jpeg
 tags:
   - android
   - mobile
   - kotlin
   - java
-canonical_url: true
 description: This is my first Blog Post
 ---
 <!--StartFragment-->
