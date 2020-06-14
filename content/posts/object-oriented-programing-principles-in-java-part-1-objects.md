@@ -108,3 +108,85 @@ This book could have methods:
       returnnoOfCopies>0;
    }
    ```
+2. buy**:**
+
+   ```java
+   public void buy(int noOfCopies){
+      if(this.noOfCopies >= noOfCopies && noOfCopies > 0){
+          this.noOfCopies -= noOfCopies;
+          System.out.println("$"+ (price*noOfCopies) + " Purchase successful");
+      }
+      else if(this.noOfCopies<noOfCopies && noOfCopies > 0) {
+          System.out.println("Sorry we only have "+noOfCopies+" copies available");
+      }
+      else {
+          System.out.println("Please input a valid number");
+      }
+   }
+
+   ```
+3. isOnSale:
+
+```java
+// This method gives a 10% discount on the book price
+public void isOnSale(){
+   price -= (0.1*price);
+}
+
+```
+
+
+
+Do you see how objects in the real world are similar to objects in a program?
+
+
+
+Great!
+
+
+
+
+
+What is an Object?
+
+
+
+An object is a basic entity(self-contained component) having distinct states and behaviors. Objects of the same class have the same structure(fields and methods).
+
+
+
+All the books in the bookstore belong to the same class because all books would have the same fields and methods.
+
+
+
+**A class models an object**
+
+
+
+A class is the blueprint or plan of an object. This means an instance of a class is an object. Instantiation here could also mean construction.
+
+
+
+//image of cake mold
+
+
+
+From the image, the class is the cake mold, and its objects are the different cakes baked in the mold. Although the cakes could differ in flavors and types, they would always have the same structure as its mold. So even if we bake a vanilla cake, chocolate, and red velvet cake with this mold, we can say that the vanilla, chocolate and red velvet cakes are in the same class.
+
+Do you see how an object is modeled by its class? Great!
+
+
+
+We said that every book in our bookstore is an object of the class Book. Having fields: Title, Author, and so on.
+
+
+
+
+
+**Let's see how this looks like on code.**
+
+
+
+
+
+**\*\*Smirk\*\***
