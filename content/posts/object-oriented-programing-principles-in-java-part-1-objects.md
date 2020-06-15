@@ -4,8 +4,8 @@ title: Object-Oriented Programing Principles in Java - Part 1 Objects
 date: 2020-06-10T11:36:29.823Z
 published: true
 tags:
-  - java
   - android
+  - java
 canonical_url: true
 description: Learn the basics of Object-Oriented Programing in the java language
 ---
