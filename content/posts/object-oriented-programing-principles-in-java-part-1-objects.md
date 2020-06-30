@@ -1,6 +1,6 @@
 ---
 cover_image: /images/uploads/piqsels.com-id-zblld.jpg
-title: "Object-Oriented Programing Principles in java: Part 1 Objects"
+title: "Object-Oriented Programming Principles in java: Part 1 Objects"
 date: 2020-06-10T11:36:29.823Z
 published: true
 tags:
@@ -18,7 +18,7 @@ Back then, when I was learning, there were some bullet points I wrote behind my 
 * Abstraction exposes the necessary features of a class without explaining many details.
 * Polymorphism enables a superclass to reference its subclass object
 
-Object-Oriented Programing Principles in java: Part 1 Objects
+Object-Oriented Programming Principles in java: Part 1 Objects
 
 
 
