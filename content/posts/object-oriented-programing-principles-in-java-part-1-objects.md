@@ -18,7 +18,7 @@ Back then, when I was learning, there were some bullet points I wrote behind my 
 * Abstraction exposes the necessary features of a class without explaining many details.
 * Polymorphism enables a superclass to reference its subclass object
 
-Object-Oriented Programming Principles in java: Part 1 Objects
+### Object-Oriented Programming Principles in java: Part 1 Objects
 
 
 
