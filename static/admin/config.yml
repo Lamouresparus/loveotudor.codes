@@ -11,7 +11,7 @@ collections:
     folder: "content/posts"
     create: true
     fields:
-      - {label: "Cover_image", name: 'image', widget: 'image'}
+      - {label: "cover_image", name: 'image', widget: 'image'}
       - {label: "Title", name: 'title', widget: 'string'}
       - {label: "Date", name: 'date', widget: 'datetime'}
       - {label: "Published", name: 'published', widget: 'boolean', default: true}

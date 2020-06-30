@@ -1,6 +1,8 @@
 ---
-image: /images/uploads/piqsels.com-id-zblld.jpg
-title: Object-Oriented Programing Principles in Java - Part 1 Objects
+
+cover_image: /images/uploads/piqsels.com-id-zblld.jpg
+title: "Object-Oriented Programming Principles in java: Part 1 Objects"
+
 date: 2020-06-10T11:36:29.823Z
 published: true
 tags:
@@ -9,7 +11,7 @@ tags:
 canonical_url: true
 description: Learn the basics of Object-Oriented Programing in the java language
 ---
-Object-Oriented Programming was this Programming paradigm that I found difficult—coming from a QBASIC foundation. I had to do a lot of studying, googling, reading tons of articles—which vaguely made sense to me then, until I finally got my eureka moment. Here I am, writing an article on the concept that took me so long to understand. I can’t still believe I spent months on something I could have learned within an hour if I had the proper guide. Lol—google search no more, because here I am with the guide I wish I had to understand the concept of Object-Oriented Programming.
+> Object-Oriented Programming was this Programming paradigm that I found difficult—coming from a QBASIC foundation. I had to do a lot of studying, googling, reading tons of articles—which vaguely made sense to me then, until I finally got my eureka moment. Here I am, writing an article on the concept that took me so long to understand. I can’t still believe I spent months on something I could have learned within an hour if I had the proper guide. Lol—google search no more, because here I am with the guide I wish I had to understand the concept of Object-Oriented Programming.
 
 Back then, when I was learning, there were some bullet points I wrote behind my jotter that helped me a great deal to understand this paradigm. The first thing I would like you to do is to pick up your pen or create sticky notes to jot these points down.
 
@@ -19,7 +21,7 @@ Back then, when I was learning, there were some bullet points I wrote behind my 
 * Abstraction exposes the necessary features of a class without explaining many details.
 * Polymorphism enables a superclass to reference its subclass object
 
-Object-Oriented Programing Principles in java: Part 1 Objects
+Object-Oriented Programming Principles in java: Part 1 Objects
 
 
 
@@ -46,7 +48,7 @@ Let's define!
 
 
 
-What Is Object-Oriented Programming?
+### What Is Object-Oriented Programming?
 
 
 
@@ -68,7 +70,7 @@ Here you see the communication between the receptionist, the database, and the b
 
 
 
-An object-oriented program is a collection of objects interacting together.
+> An object-oriented program is a collection of objects interacting together.
 
 
 
@@ -148,7 +150,7 @@ Great!
 
 
 
-What is an Object?
+### What is an Object?
 
 
 

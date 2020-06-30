@@ -85,6 +85,12 @@ query Post ($id: ID!) {
   text-align: center;
 }
 
+@media (min-width: 910px){
+  .post-body{
+     width: calc(100% + var(--space) * -3);
+    margin-left: calc(var(--space) * -1);
+  }
+}
 
 .post {
 
@@ -98,6 +104,7 @@ query Post ($id: ID!) {
 
     img {
       width: 100%;
+      padding: calc(var(--space) /1)
     }
 
     &:empty {
@@ -111,13 +118,14 @@ query Post ($id: ID!) {
     }
 
     p:first-of-type {
-      font-size: 1.2em;
-      color: var(--title-color);
+      font-size: normal;
+      // color: var(--title-color);
     }
 
     img {
       width: calc(100% + var(--space) * 2);
       margin-left: calc(var(--space) * -1);
+      padding: var(--space);
       display: block;
       max-width: none;
     }
@@ -126,7 +134,10 @@ query Post ($id: ID!) {
 
 .post-comments {
   padding: calc(var(--space) / 2);
-
+  @media(min-width: 910px){
+      width: 50%;
+      margin: auto;
+  }
   &:empty {
     display: none;
   }
