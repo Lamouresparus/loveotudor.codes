@@ -123,13 +123,6 @@ export default {
     color: currentColor;
   }
 }
-
-@media( max-width: 650px ){
-  .footer{
-    display: flex;
-    flex-flow: column wrap;
-  }
-}
 .fade-enter-active {
   transition: opacity 0.5s;
 }
