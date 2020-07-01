@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/android-chrome-512x512.png
+image: /images/uploads/piqsels.com-id-zblld.jpg
 title: "Object-Oriented Programming Principles in java: Part 1 Objects"
 date: 2020-06-10T11:36:29.823Z
 published: true
@@ -227,6 +227,8 @@ public class Main {
 
 Running this we get:
 
+![Code output](/images/uploads/oop-in-java-image-1.png "Book details")
 
+Well Done!
 
-![]()
+Our code looks perfect. Well, not quite...
