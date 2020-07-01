@@ -123,3 +123,110 @@ I said earlier that every book in our bookstore is an object of the class Book. 
 **Let's see how this looks like on code.**
 
 **\*\*Smirk\*\***
+
+```java
+public class Book {
+
+   //The fields having no access modifier makes them(fields/states) package private
+   static int bookCount;
+   int bookId;
+   String title;
+   String author;
+   String yearOfPublication;
+   int noOfCopies;
+   double price;
+
+   {
+       noOfCopies = 25;
+       price = 1.5;
+       bookCount ++;
+       bookId = bookCount;
+   }
+   //The book constructor used to create book objects
+   Book(){}
+   Book(String title, String author, String yearOfPublication){
+       this.title = title;
+       this.author = author;
+       this.yearOfPublication = yearOfPublication;
+   }
+  
+   public boolean isAvailable(){
+       return noOfCopies > 0;
+   }
+
+   public void buy(int noOfCopies){
+       if(this.noOfCopies >= noOfCopies && noOfCopies > 0){
+           this.noOfCopies -= noOfCopies;
+           System.out.println("$"+ (price*noOfCopies) + " Purchase successful");
+       }
+       else if(this.noOfCopies<noOfCopies && noOfCopies > 0) {
+           System.out.println("Sorry we only have "+noOfCopies+" copies available");
+       }
+       else {
+           System.out.println("Please input a valid number");
+       }
+   }
+   // This method gives a 10% discount on the book price
+   public void isOnSale(){
+       price -= (0.1*price);
+   }
+
+   //We override this method so it does not print out the memory address of the book
+   @Override
+   public String toString() {
+       return ("Book Id: "+bookId+"\n"+
+               "Title: "+title+"\n"+
+               "Author: "+author+"\n"+
+               "Year of Publication: "+yearOfPublication+"\n"+
+               "Price: $"+price+"\n"+
+               "Number of Copies Available: "+noOfCopies+"\n"+
+               "Thank you!");
+   }
+}
+```
+
+Our Book class is all set up.
+
+**whew!**
+
+You have successfully created a Book class that has seven fields:
+
+* book count,
+* book Id;
+* title,
+* author,
+* year of publication,
+* number of copies, and
+* price.
+
+With this, we can create a book by calling the new keyword and the Book constructor.
+
+`Book myBook = new Book("Happy Home", "Love Otudor", "June 2020");`
+
+or
+
+`Book myBook = new Book();`
+
+The book object "Happy Home" has its memory address stored in the variable myBook.
+
+All books are given a price of $1.5 and have 25 available copies by default. The book id is auto-generated.
+
+#### To instantiate a class means to create an object of that class.
+
+We can now create a book titled “Happy Home” in our main class and print it out.
+
+```java
+public class Main {
+
+   public static void main(String[] args) {
+  Book myBook = new Book("Happy Home", "Love Otudor", "June 2020");
+  System.out.println(myBook);
+   }
+}
+```
+
+Running this we get:
+
+
+
+![]()
