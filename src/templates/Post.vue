@@ -45,18 +45,48 @@ export default {
     PostMeta,
     PostTags
   },
-  metaInfo () {
-    return {
-      title: this.$page.post.title,
-      meta: [
-        {
-          name: 'og:description',
-          content: this.$page.post.description
-        }
-      
-      ]
-    }
-  }
+    metaInfo ()  {
+      return {
+          title: this.$page.post.title,
+          meta: [
+            {
+              name: this.$page.post.title,
+              content: this.$page.post.description
+            },
+            {key: "og:type",property: "og:type", content: 'article'},
+            {key: "og:card",property: "og:type", content: 'summary_large_image'},
+            {key: "og:image",property: "og:type", content: 'https://res.cloudinary.com/samtech/image/upload/q_auto/f_auto/v1589017077/WhatsApp_Image_2020-04-26_at_16.35.30.jpg' },
+            {key: 'og:title' ,property: "og:title", content: this.$page.post.title},
+            {key: 'description', name: "description", content: this.$page.post.description},
+            {key:"og:url" ,property: "og:url", content: this.postUrl},
+            {key: "article:published_time", property: "article:published_time", content: this.$page.post.date},
+
+            {key: "article:published_time", property: "article:published_time", content: this.$page.post.date},
+
+                    //twitter card: https://cards-dev.twitter.com/validator
+            { name: "twitter:card", content: "summary_large_image" },
+            { name: "twitter:image", content: 'https://res.cloudinary.com/samtech/image/upload/q_auto/f_auto/v1589017077/WhatsApp_Image_2020-04-26_at_16.35.30.jpg' },
+            { name: "twitter:description", content: this.$page.post.description },
+            { name: "twitter:title", content: this.$page.post.title },
+            { name: "twitter:site", content: "https://loveotudor.tech" },
+            { name: "twitter:creator", content: "@lamouresparus" },
+            // open graph
+            { property: "og:title", content: this.$page.post.title },
+            { property: "og:description", content: this.$page.post.description },
+            { property: "og:image", content: this.getImage() },
+            { property: "og:updated_time", content: this.$page.post.date },
+          ]
+      }
+  },
+  computed: {
+      postUrl () {
+          let siteUrl = this.$static.metadata.siteUrl;
+          let postPath = this.$page.post.path;
+
+          return postPath ? `${siteUrl}${postPath}` : `${siteUrl}/${slugify(this.$page.post.title)}/`;
+      }
+  },
+
 }
 </script>
 

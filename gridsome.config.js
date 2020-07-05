@@ -44,13 +44,13 @@ module.exports = {
         feedOptions: {
           title: 'Love Otudor',
           description: 'A blog on mobile development, and my journey as woman in tech. Written by Love Otudor, Mobile Developer',
-          feed_url: 'https://loveotudor.netlify.app/rss.xml',
-          site_url: 'https://loveotudor.netlify.app'
+          feed_url: 'https://loveotudor.tech/rss.xml',
+          site_url: 'https://loveotudor.tech'
         },
         feedItemOptions: node => ({
           title: node.title,
           date: node.date,
-          url: 'https://loveotudor.netlify.app' + node.slug,
+          url: 'https://loveotudor.tech' + node.slug,
           description: node.description
         }),
         output: {

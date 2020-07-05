@@ -21,7 +21,7 @@
         
       </span>
       Made with 💚 by 
-        <a href="//twitter.com/samuelumoren16"> @lamoureSparus </a>
+        <a href="//twitter.com/samuelumoren16"> @samuelumoren16 </a>
      
     </footer>
 
