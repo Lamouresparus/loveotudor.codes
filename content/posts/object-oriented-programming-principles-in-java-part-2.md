@@ -10,7 +10,7 @@ description: Learn the basics of Object-Oriented Programing in the java language
 ---
 > In our previous article, we talked about classes and objects. We created a class called "Book" and instantiated a Book object-"myBook" in our main method. Our code was not quite perfect. Let us see why -shall we?
 
-## Object-Oriented Programing Principles in java: Encapsulation
+## Encapsulation
 
 Assuming our librarian wants to update the number of available copies of Happy home in our bookstore to 23. It would look like this:
 
@@ -176,3 +176,28 @@ Running this we get:
 
 
 With encapsulation, we’ve gained control over our data by restricting the receptionist from assigning negative values.
+
+
+## Inheritance
+
+Inheritance is a concept in which an object inherits all the properties and behaviors of a parent object.
+
+So far we've seen that everything is an object. This theory creates the possibility of having very similar objects in a program.
+
+For example, we could have textbooks and novels in our Bookstore. A textbook and a novel share the same properties as a book object. The only difference is:
+ A textbook has a subject property, and
+2. Novels have genres. 
+
+We could:
+1. Create a class called Textbook.
+2. Copy and paste all the code from the Book class into the Textbook class.
+3. Create a subject field with its getters and setters.
+
+We could do the same for the Novel class, but that's a lot of code duplication.
+
+With inheritance, we could eliminate unnecessary code duplication by making the Textbook and Novel class inherit the properties of the Book class.
+
+A class can inherit all the properties of another class and/or interface
+
+The derived(child) class can have the states and methods of its base(parent) class, along with its states and methods. A derived class can extend only one base class, however, it can implement more than one interface. An interface on the other hand can extend any number of interfaces.
+
