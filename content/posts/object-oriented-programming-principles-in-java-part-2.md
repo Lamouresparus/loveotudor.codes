@@ -80,8 +80,6 @@ On to the next!
 
 The *Setter* method also known as *mutators* are used to set the state of an object. It is a void method that begins with the word set and looks like this.
 
-
-
 ```java
 public void setNoOfCopies(int noOfCopies) {
    if(noOfCopies >=0) {
@@ -91,20 +89,11 @@ public void setNoOfCopies(int noOfCopies) {
        System.out.println("Input a valid number");
    }
 }
-
 ```
-
-
-
-
 
 We have successfully blocked the librarian from assigning negative values to the number of copies available for a book.
 
-
-
 The setters for the other fields would look like this:
-
-
 
 ```java
 public void setPrice(double price) {
@@ -123,7 +112,6 @@ public void setAuthor(String author) {
 public void setYearOfPublication(String yearOfPublication) {
    this.yearOfPublication = yearOfPublication;
 }
-
 ```
 
 \
@@ -139,8 +127,6 @@ public String getTitle() {
 }
 // …
 ```
-
-
 
 I trust you can complete that.
 
@@ -160,23 +146,13 @@ public class Main {
   System.out.println(myBook.getNoOfCopies());
    }
 }
-
 ```
-
-
 
 Running this we get:
 
-
-
 ![Code output](/images/uploads/screenshot-from-2020-05-28-18-18-51.png "Using getters and setters")
 
-
-
-
-
 With encapsulation, we’ve gained control over our data by restricting the receptionist from assigning negative values.
-
 
 ## Inheritance
 
@@ -185,19 +161,20 @@ Inheritance is a concept in which an object inherits all the properties and beha
 So far we've seen that everything is an object. This theory creates the possibility of having very similar objects in a program.
 
 For example, we could have textbooks and novels in our Bookstore. A textbook and a novel share the same properties as a book object. The only difference is:
- A textbook has a subject property, and
-2. Novels have genres. 
 
-We could:
+* A textbook has a subject property, and
+* Novels have genres. 
+
+To achieve this we could:
+
 1. Create a class called Textbook.
 2. Copy and paste all the code from the Book class into the Textbook class.
 3. Create a subject field with its getters and setters.
 
 We could do the same for the Novel class, but that's a lot of code duplication.
 
-With inheritance, we could eliminate unnecessary code duplication by making the Textbook and Novel class inherit the properties of the Book class.
+With inheritance, we eliminate unnecessary code duplication by making the Textbook and Novel class inherit the properties of the Book class.
 
-A class can inherit all the properties of another class and/or interface
+### A class can inherit all the properties of another class and/or interface
 
 The derived(child) class can have the states and methods of its base(parent) class, along with its states and methods. A derived class can extend only one base class, however, it can implement more than one interface. An interface on the other hand can extend any number of interfaces.
-
