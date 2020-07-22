@@ -178,3 +178,9 @@ With inheritance, we eliminate unnecessary code duplication by making the Textbo
 ### A class can inherit all the properties of another class and/or interface
 
 The derived(child) class can have the states and methods of its base(parent) class, along with its states and methods. A derived class can extend only one base class, however, it can implement more than one interface. An interface on the other hand can extend any number of interfaces.
+
+
+
+
+
+![Image illustration of inheritance](/images/uploads/screenshot-from-2020-07-22-14-34-15.png "Inheritance")
