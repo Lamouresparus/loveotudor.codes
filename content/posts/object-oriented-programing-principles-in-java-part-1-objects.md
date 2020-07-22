@@ -29,7 +29,7 @@ Let's define!
 
 ### What Is Object-Oriented Programming?
 
-Object-Oriented Programming is a programming paradigm or concept in which your programs can be related to real-world objects.
+*Object-Oriented Programming* is a programming paradigm or concept in which your programs can be related to real-world objects.
 
 Don’t panic yet, because I’m going to break this down real quick.
 
