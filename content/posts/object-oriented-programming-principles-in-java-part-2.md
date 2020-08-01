@@ -150,7 +150,33 @@ public class Main {
 
 Running this we get:
 
-![Code output](/images/uploads/screenshot-from-2020-05-28-18-18-51.png "Using getters and setters")
+![Code output](/images/uploads/screenshot-from-2020-05-28-18-18-51.png "Using getters and setters")public class TextBook extends Book {
+   private String subject;
+   TextBook(String subject, String title, String author, String yearOfPublication) {
+       super(title, author, yearOfPublication);
+       this.subject = subject;
+   }
+
+   public String getSubject() {
+       return subject;
+   }
+
+   public void setSubject(String subject) {
+       this.subject = subject;
+   }
+
+   @Override
+   public String toString() {
+       return ("Book Id: "+getBookId()+"\n"+
+               "Subject: "+getSubject()+"\n"+
+               "Title: "+getTitle()+"\n"+
+               "Author: "+getAuthor()+"\n"+
+               "Year of Publication: "+getYearOfPublication()+"\n"+
+               "Price: $"+getPrice()+"\n"+
+               "Number of Copies Available: "+getNoOfCopies()+"\n"+
+               "Thank you!");
+   }
+}
 
 With encapsulation, we’ve gained control over our data by restricting the receptionist from assigning negative values.
 
@@ -170,6 +196,33 @@ To achieve this we could:
 1. Create a class called Textbook.
 2. Copy and paste all the code from the Book class into the Textbook class.
 3. Create a subject field with its getters and setters.
+   public class TextBook extends Book {
+      private String subject;
+      TextBook(String subject, String title, String author, String yearOfPublication) {
+          super(title, author, yearOfPublication);
+          this.subject = subject;
+      }
+
+      public String getSubject() {
+          return subject;
+      }
+
+      public void setSubject(String subject) {
+          this.subject = subject;
+      }
+
+      @Override
+      public String toString() {
+          return ("Book Id: "+getBookId()+"\n"+
+                  "Subject: "+getSubject()+"\n"+
+                  "Title: "+getTitle()+"\n"+
+                  "Author: "+getAuthor()+"\n"+
+                  "Year of Publication: "+getYearOfPublication()+"\n"+
+                  "Price: $"+getPrice()+"\n"+
+                  "Number of Copies Available: "+getNoOfCopies()+"\n"+
+                  "Thank you!");
+      }
+   }
 
 We could do the same for the Novel class, but that's a lot of code duplication.
 
@@ -178,9 +231,148 @@ With inheritance, we eliminate unnecessary code duplication by making the Textbo
 ### A class can inherit all the properties of another class and/or interface
 
 The derived(child) class can have the states and methods of its base(parent) class, along with its states and methods. A derived class can extend only one base class, however, it can implement more than one interface. An interface on the other hand can extend any number of interfaces.
-
-
-
-
+We can harness the power of inheritance in our BookStoreApp by creating a class called TextBook, having Book as its parent.
 
 ![Image illustration of inheritance](/images/uploads/screenshot-from-2020-07-22-14-34-15.png "Inheritance")
+
+We can harness the power of inheritance in our BookStoreApp by creating a class called TextBook, having Book as its parent.
+
+```java
+public class TextBook extends Book {
+   private String subject;
+   TextBook(String subject, String title, String author, String yearOfPublication) {
+       super(title, author, yearOfPublication);
+       this.subject = subject;
+   }
+
+   public String getSubject() {
+       return subject;
+   }
+
+   public void setSubject(String subject) {
+       this.subject = subject;
+   }
+
+   @Override
+   public String toString() {
+       return ("Book Id: "+getBookId()+"\n"+
+               "Subject: "+getSubject()+"\n"+
+               "Title: "+getTitle()+"\n"+
+               "Author: "+getAuthor()+"\n"+
+               "Year of Publication: "+getYearOfPublication()+"\n"+
+               "Price: $"+getPrice()+"\n"+
+               "Number of Copies Available: "+getNoOfCopies()+"\n"+
+               "Thank you!");
+   }
+}
+```
+
+The Novel class would look pretty much look the same way. Except that instead of having a `subject` field, it would rather have `genre`.
+
+We can now create instances of the Textbook and Novel class in our Main Method.
+
+`TextBook javaBasics = new TextBook("Java Programming", "Introduction to Java", "Jim Wilson", "January,2020");`
+
+``
+
+`Novel theRoadToBarBeach = new Novel("Fiction", "The Road To Bar Beach", "Sam Eyo", "1988");`
+
+`System.out.println(myBook +"\n" +"\n"+javaBasics+ "\n"+ "\n"+ "\n" + theRoadToBarBeach);`
+
+Running this would give:
+
+![output code](/images/uploads/screenshot-from-2020-06-02-18-01-01.png "output of inheritance code")
+
+## Abstraction
+
+When something is called abstract, it means that it is incomplete or not clearly defined. Similarly, abstraction in java is a programming technique that hides the implementation details and reveals only the functionality(relevant operations) to the user.
+
+### Abstraction exposes the necessary features of a class without explaining many details.
+
+A real-world example of abstraction is when we charge our mobile devices. All we have to do is connect our charger to a power source and plug it to our phones. We don't need to know the nitty-gritty details of the flow of electrons and all that complex stuff.
+
+We can achieve abstraction in two ways:
+
+1. An abstract class.
+2. An interface.
+
+An *abstract class* is a class that has the keyword **abstract**. It could have constructors and any number of abstract, static, or final methods. Abstract classes cannot be instantiated(have objects of itself).
+
+An *abstract class* is a class that has the keyword **abstract**. It could have constructors and any number of abstract, static, or final methods. Abstract classes cannot be instantiated(have objects of itself). An *abstract method* has the keyword **abstract**, with no implementation(method body). Thet exists only in an abstract class and should not be private, as it is to be implemented by the user. With abstract classes, we can achieve 100% or less abstraction.
+
+An *interface* on the other hand is 100% abstract and has no concrete methods. It is created with the keyword **interface.** Here is an interesting fact: just as a class is the blueprint of an object, an interface is also the blueprint of a class.
+
+Back in our BookStore App, we want to restrict the librarian from creating a book object. Rather, the book type must be specified as a Novel or Textbook.
+
+To do this, firstly we make our Book class abstract.
+
+```java
+public abstract class Book {
+
+   //...Codes hidden for clarity
+}
+```
+
+If we try to create a Book, we get this error from IntelliJ:
+
+**“Book' is abstract; cannot be instantiated”.**
+
+Nicely done!
+
+With abstraction, we can force all subclasses of the Book class to implement the toString method. By making the toString method of the Book class an abstract method. To achieve this we:
+
+* use the keyword abstract,
+* remove the method's body, and
+* add a semicolon.
+
+  ```java
+  //We override this method so it does not print out the memory address of the book
+  @Override
+  public abstract String toString();
+  ```
+
+Now if we remove the overridden toString method in either of the Novel and TextBook class, we get an error that says:
+
+**“Class 'TextBook' must either be declared abstract or implement abstract method 'toString()' in 'Book'”.**
+
+## Polymorphism
+
+*Polymorphism* is a Greek word that means many forms. In java is the ability of an object to have many forms.
+
+For example, a female could be a mother, a sister, an aunt, and many more. They all(mother, sister, aunt, etc.) are subclasses of the Female class. So if we have a  mother called Lisa, an aunt called Joy, and a sister called Love. We could have a list of females and have Lisa, Joy, and Love in it. That's polymorphism there. Because they are all females, they can be grouped as females.
+
+Polymorphism makes it possible for a class to be used exactly as its parent, while still keeping its methods.
+
+With polymorphism, it is possible to create an ArrayList of Books in our BookStore app that stores both Novels and Textbooks.
+
+```java
+TextBook javaBasics = new TextBook("Java Programming","Introduction to Java",
+     "Jim Wilson", "January, 2020");
+
+Novel theRoadToBarBeach = new Novel("Fiction", "The Road To Bar Beach", "Sam Eyo",
+     "1988");
+
+
+ArrayList<Book> list = new ArrayList();
+list.add(javaBasics);
+list.add(theRoadToBarBeach);
+System.out.println(list);
+```
+
+### Polymorphism enables a superclass to reference its subclass object.
+
+
+
+`Book myBook = new Novel("Fiction","Happy Home", "Love Otudor", "June 2020");`
+
+``
+
+Here the superclass Book references its subclass Novel.
+
+
+
+**Thank you for reading! I hoped this article helped you.**
+
+
+
+**\*\*\*Smily Face\*\*\***
