@@ -14,8 +14,6 @@ description: Starting a career in android development can seem like taking a
 >
 > ***Philip Stanhope.***
 
-
-
 Starting a career in android development can seem like taking a single step in a journey of thousands of steps. Well as much as you must take that step, taking it in the right direction is much more important.
 
 So I wrote down a few first steps to take from my experience. Well, I could say I had it easy because I had someone guide me through my beginner android developer phase.
@@ -30,8 +28,6 @@ Kotlin is more beginner-friendly and should be the choice of beginners, who want
 
 But here's a thing: Don't get too caught up making this decision, because they are both Object Oriented Programming languages, so once you master one, it's pretty easy for you to pick up the other.
 
-
-
 ## Here are a couple of free resources to learn java:
 
 1. Udacity: [Java Programming Basics](https://www.udacity.com/course/java-programming-basics--ud282).
@@ -41,8 +37,6 @@ But here's a thing: Don't get too caught up making this decision, because they a
 
 Udacity and Udemy provide very beginner-friendly java video courses. FreeCodeCamp, W3Schools, Tutorialspoint, CodeAcademy to mention a few, also provide great java tutorials.
 
-
-
 ## Resources to learn Kotlin:
 
 1. [Kotlin Bootcamp for programmers](https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-welcome/#0).
@@ -50,14 +44,14 @@ Udacity and Udemy provide very beginner-friendly java video courses. FreeCodeCam
 3. Udemy: [Android Programming with Kotlin for beginner: Calculator App](https://www.udemy.com/share/102n6W/).
 4. Pluralsight: [Getting Started with Kotlin](https://pluralsight.pxf.io/c/1193463/424552/7490?u=https%3A%2F%2Fwww.pluralsight.com%2Fcourses%2Fkotlin-getting-started).
 
-
-
 ## Resources to learn Android Development:
 
 1. Udacity: [Android Basics: User Interface](https://www.udacity.com/course/android-basics-user-interface--ud834).
 2. [Getting started with Android development - Tutorial](https://www.vogella.com/tutorials/Android/article.html).
 3. [Android Development Codelabs](https://codelabs.developers.google.com/?cat=Android).
 4. [Google Android Glossary](https://developers.google.com/android/for-all/vocab-words/).
+
+
 
 
 
@@ -99,7 +93,5 @@ Stay updated on the latest development news, tutorials, events, and all the happ
 The first few steps make the rest of the journey clearer. From here, you can take the wheel, and begin a dive into android development.
 
 And yes, never forget: Google is your friend.
-
-
 
 Happy Learning!
