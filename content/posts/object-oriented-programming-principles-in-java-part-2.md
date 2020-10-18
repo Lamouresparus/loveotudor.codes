@@ -4,7 +4,9 @@ title: "Object-Oriented Programming Principles in java: Part 2"
 date: 2020-07-21T15:31:38.176Z
 published: true
 tags:
-  - "#java"
+  - java
+  - android
+  - kotlin
 canonical_url: true
 description: Learn the basics of Object-Oriented Programing in the java language
 ---
