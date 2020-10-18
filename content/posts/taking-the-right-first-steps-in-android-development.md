@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/first-steps.png
+cover_image: /images/uploads/first-steps.png
 title: Taking The Right First Steps In Android Development
 date: 2020-10-05T13:37:34.821Z
 published: true

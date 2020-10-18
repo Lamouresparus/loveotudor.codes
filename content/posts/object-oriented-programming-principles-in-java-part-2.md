@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/istockphoto-1131109259-170667a.jpg
+cover_image: /images/uploads/istockphoto-1131109259-170667a.jpg
 title: "Object-Oriented Programming Principles in java: Part 2"
 date: 2020-07-21T15:31:38.176Z
 published: true
