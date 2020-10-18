@@ -1,13 +1,14 @@
 ---
-cover_image: /images/uploads/istockphoto-1131109259-170667a.jpg
+image: /images/uploads/istockphoto-1131109259-170667a.jpg
 title: "Object-Oriented Programming Principles in java: Part 2"
 date: 2020-07-21T15:31:38.176Z
 published: true
+canonical_url: true
+cover_image: /images/uploads/istockphoto-1131109259-170667a.jpg
 tags:
   - java
   - android
   - kotlin
-canonical_url: true
 description: Learn the basics of Object-Oriented Programing in the java language
 ---
 > In our previous article, we talked about classes and objects. We created a class called "Book" and instantiated a Book object-"myBook" in our main method. Our code was not quite perfect. Let us see why -shall we?
@@ -152,35 +153,11 @@ public class Main {
 
 Running this we get:
 
-![Code output](/images/uploads/screenshot-from-2020-05-28-18-18-51.png "Using getters and setters")public class TextBook extends Book {
-   private String subject;
-   TextBook(String subject, String title, String author, String yearOfPublication) {
-       super(title, author, yearOfPublication);
-       this.subject = subject;
-   }
-
-   public String getSubject() {
-       return subject;
-   }
-
-   public void setSubject(String subject) {
-       this.subject = subject;
-   }
-
-   @Override
-   public String toString() {
-       return ("Book Id: "+getBookId()+"\n"+
-               "Subject: "+getSubject()+"\n"+
-               "Title: "+getTitle()+"\n"+
-               "Author: "+getAuthor()+"\n"+
-               "Year of Publication: "+getYearOfPublication()+"\n"+
-               "Price: $"+getPrice()+"\n"+
-               "Number of Copies Available: "+getNoOfCopies()+"\n"+
-               "Thank you!");
-   }
-}
+![Code output](/images/uploads/screenshot-from-2020-05-28-18-18-51.png "Using getters and setters")public class 
 
 With encapsulation, we’ve gained control over our data by restricting the receptionist from assigning negative values.
+
+
 
 ## Inheritance
 
@@ -198,7 +175,8 @@ To achieve this we could:
 1. Create a class called Textbook.
 2. Copy and paste all the code from the Book class into the Textbook class.
 3. Create a subject field with its getters and setters.
-   public class TextBook extends Book {
+  ```java
+ public class TextBook extends Book {
       private String subject;
       TextBook(String subject, String title, String author, String yearOfPublication) {
           super(title, author, yearOfPublication);
@@ -225,6 +203,7 @@ To achieve this we could:
                   "Thank you!");
       }
    }
+```
 
 We could do the same for the Novel class, but that's a lot of code duplication.
 
@@ -363,18 +342,12 @@ System.out.println(list);
 
 ### Polymorphism enables a superclass to reference its subclass object.
 
-
-
 `Book myBook = new Novel("Fiction","Happy Home", "Love Otudor", "June 2020");`
 
 ``
 
 Here the superclass Book references its subclass Novel.
 
-
-
 **Thank you for reading! I hoped this article helped you.**
-
-
 
 **\*\*\*Smily Face\*\*\***
