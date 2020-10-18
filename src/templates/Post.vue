@@ -73,7 +73,7 @@ export default {
             // open graph
             { property: "og:title", content: this.$page.post.title },
             { property: "og:description", content: this.$page.post.description },
-            { property: "og:image", content: this.getImage() },
+            // { property: "og:image", content: this.getImage() },
             { property: "og:updated_time", content: this.$page.post.date },
           ]
       }
@@ -108,6 +108,14 @@ query Post ($id: ID!) {
   }
 }
 </page-query>
+
+<static-query>
+query {
+  metadata {
+    siteUrl
+  }
+}
+</static-query>
 
 <style lang="scss">
 .post-title {
