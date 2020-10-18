@@ -5,6 +5,9 @@ date: 2020-10-05T13:37:34.821Z
 published: true
 tags:
   - android
+  - java
+  - kotlin
+  - flutter
 canonical_url: true
 description: Starting a career in android development can seem like taking a
   single step in a journey of thousands of steps. Well as much as you must take
