@@ -35,3 +35,22 @@ The *Safe Args argument* is a Gradle plugin that generates simple object and bui
 Just in case you didn’t do so already, here are the necessary dependencies needed:
 
 Include the following classpath in your top-level **build.gradle file**:
+
+```java
+def nav_version = "2.3.0"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+```
+
+Apply the plugin below in your app or module's build.gradle file:
+
+```java
+apply plugin: "androidx.navigation.safeargs"
+```
+
+> **NOTE**: If you are using kotlin, you can find the alternative dependencies [here](https://developer.android.com/jetpack/androidx/releases/navigation).
+
+
+
+# Setting up the layout
+
+You are going to add an edit text to the start destination(HomeFragment) of the navigation graph. This edit text would take any length in Centimeters. This value would be passed as an argument to the SecondFragment, where it would be converted to Feet.
