@@ -7,7 +7,8 @@ tags:
   - java
   - android
 canonical_url: true
-description: nicw
+description: Learn how to pass data from one fragment to another using Safe Args
+  in Navigation Architecture.
 ---
 In the previous [article](https://codesource.io/implementing-navigation-architecture-in-android), you implemented the navigation architecture component and was able to navigate to different destinations in the app. In this article, you will make the app look more meaningful by passing data from one fragment to another with Safe Args.
 
