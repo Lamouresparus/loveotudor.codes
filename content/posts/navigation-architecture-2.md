@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/untitlednavi.png
+image: /images/uploads/piqsels.com-id-zblld.jpg
 title: Navigation Architecture 2
 date: 2020-12-24T14:27:56.466Z
 published: true
