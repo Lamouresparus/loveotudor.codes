@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/untitlednavi.png
+image: /images/uploads/iphone-11-pro-max-1nav.png
 title: Navigation Architecture 2
 date: 2020-12-24T14:27:56.466Z
 published: true
