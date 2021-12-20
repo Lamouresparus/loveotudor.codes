@@ -4,17 +4,15 @@ title: Yaaas I Got In!!!
 date: 2021-12-20T08:02:33.423Z
 published: true
 tags:
-  - outreachy
-  - java
-  - android
+  - "#Outreachy"
 canonical_url: true
 description: "*This is the first blog in the series of Outreachy Internship
   blogs. I’m going to publish every 2nd week for the next 3 months of my
-  internship. Let's gist😂.*"
+  internship. Let's gist 😂.*"
 ---
 ### **Hello World 😊**
 
-Okay, so the term ***gist*** is a Nigerian slag which means to engage in a chat😊😊😊.
+Okay, so the term ***gist*** is a Nigerian slang which means to engage in a chat 😊😊😊.
 
 ### **Who am I?**
 
@@ -44,12 +42,10 @@ I believe that continuous growth is possible. I want to be a better person, I wa
 
 #### **Love:**
 
-I believe that everyone is worth loving. I believe that everyone deserves care and compassion. I want everyone I come across to feel loved and important. I believe Love is the greatest and conquers all. It is an honor to be called Love.
+I believe that everyone is worth loving. I believe that everyone deserves care and compassion. I want everyone I come across to feel loved and important. I believe Love is the greatest and conquers all. It is an honor to be called Love 😁.
 
 #### **Faith:**
 
 I have faith in God, I have faith in myself, I have faith in other people, and I have faith in the future.
-
-
 
 **YES, I MADE IT 🎉🎉🎉.  I am here now as an ODK-X Intern in Outreachy 😊**
