@@ -4,11 +4,13 @@ title: Yaaas I Got In!!!
 date: 2021-12-20T08:02:33.423Z
 published: true
 tags:
-  - "#Outreachy"
+  - outreachy
+  - java
+  - android
 canonical_url: true
-description: "*This is the first blog in the series of Outreachy Internship
-  blogs. I’m going to publish every 2nd week for the next 3 months of my
-  internship. Let's gist 😂.*"
+description: This is the first blog in the series of Outreachy Internship blogs.
+  I’m going to publish every 2nd week for the next 3 months of my internship.
+  Let's gist 😂.
 ---
 ### **Hello World 😊**
 
