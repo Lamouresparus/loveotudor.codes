@@ -7,8 +7,9 @@ tags:
   - outreachy
   - java
   - android
+  - ODK-X
 canonical_url: true
-description: This is the first blog in the series of Outreachy Internship blogs.
+description: This is the first blog in a series of Outreachy Internship blogs.
 ---
 > Yaaas I Got In!!! This is the first blog in the series of Outreachy Internship blogs. I’m going to publish every second week for the next three months of my internship. Let's gist 😂.
 
