@@ -20,7 +20,7 @@ Okay, so the term ***gist*** is a Nigerian slang which means to engage in a ch
 
 ![love at the beach](/images/uploads/img_9983-copy.jpg "love at the beach")
 
-Holla 🌻. I am Love Otudor(she/her), an android developer and technical writer. I am an Outreachy - Fall 2021 intern for ODK-X. I studied Computer Engineering at the University of Uyo, Nigeria. My interests are in Sofware Engineering, Community Building, User Interface & Experience, Open Source Contribution, and Writing.
+Holla 🌻. I am Love Otudor(she/her), an Android Developer and Technical Writer. I am an Outreachy - Fall 2021 intern for ODK-X. I studied Computer Engineering at the University of Uyo, Nigeria. My interests are in Sofware Engineering, Community Building, User Interface & Experience, Open Source Contribution, and Writing.
 
 I have been accepted for The December 2021 to March 2022 Outreachy Internship round. During this period, I will be updating ODK-X’s Tests to the most recent Android Testing Framework. This means that I will be working to ensure ODK-X’s Tests meet the current best practices and take advantage of the new features in Android Testing Frameworks. I will be doing this under the guidance of my mentors: Phebe Temenu, Waylon Brunette, and Caroline Krafft. I am hoping to make some noteworthy contributions to ODK-X.
 
@@ -51,8 +51,6 @@ I believe that everyone is worth loving. I believe that everyone deserves care a
 #### **Faith:**
 
 I have faith in God, I have faith in myself, I have faith in other people, and I have faith in the future.
-
-
 
 ### **My Outreachy Journey 👩🏽‍🎨:**
 
