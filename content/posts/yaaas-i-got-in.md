@@ -8,15 +8,19 @@ tags:
   - java
   - android
 canonical_url: true
-description: Yaaas I Got In!!! This is the first blog in the series of Outreachy
-  Internship blogs. I’m going to publish every 2nd week for the next 3 months of
-  my internship. Let's gist 😂.
+description: This is the first blog in the series of Outreachy Internship blogs.
 ---
+> Yaaas I Got In!!! This is the first blog in the series of Outreachy Internship blogs. I’m going to publish every second week for the next three months of my internship. Let's gist 😂.
+
 ### **Hello World 😊**
 
 Okay, so the term ***gist*** is a Nigerian slang which means to engage in a chat 😊😊😊.
 
 ### **Who am I?**
+
+
+
+![love at the beach](/images/uploads/img_9983.jpg "love at the beach")
 
 Holla 🌻. I am Love Otudor(she/her), an android developer and technical writer. I am an Outreachy - Fall 2021 intern for ODK-X. I studied Computer Engineering at the University of Uyo, Nigeria. My interests are in Sofware Engineering, Community Building, User Interface & Experience, Open Source Contribution, and Writing.
 
