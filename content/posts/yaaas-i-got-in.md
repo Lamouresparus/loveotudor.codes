@@ -18,9 +18,7 @@ Okay, so the term ***gist*** is a Nigerian slang which means to engage in a ch
 
 ### **Who am I?**
 
-
-
-![love at the beach](/images/uploads/img_9983.jpg "love at the beach")
+![love at the beach](/images/uploads/img_9983-copy.jpg "love at the beach")
 
 Holla 🌻. I am Love Otudor(she/her), an android developer and technical writer. I am an Outreachy - Fall 2021 intern for ODK-X. I studied Computer Engineering at the University of Uyo, Nigeria. My interests are in Sofware Engineering, Community Building, User Interface & Experience, Open Source Contribution, and Writing.
 
