@@ -52,4 +52,20 @@ I believe that everyone is worth loving. I believe that everyone deserves care a
 
 I have faith in God, I have faith in myself, I have faith in other people, and I have faith in the future.
 
+
+
+### **My Outreachy Journey 👩🏽‍🎨:**
+
+I got to know about Outreachy during the covid-19 stay at home. Before this, I had heard about open source and its benefits but felt it wasn't for newbies like myself. Later, I got to learn that with Outreachy I can contribute to open source with help from mentors even as a newbie.
+
+I applied to Outreachy fall 2020 but unfortunately did not get to the contribution phase, because my school time commitment changed due to the long break caused by Covid-19.
+
+This year, During my final exams, I committed myself to grow in my software engineering career and applied to Outreachy again. I was a lot more confident this time because I was done with school and could commit more time.
+
+The contribution phase was an adventure for me. From practically being clueless on what projects to contribute to because I couldn't find any kotlin projects, to finding ODK-X and making my first open-source contribution 😂.
+
+In my first PR, I replaced hardcoded strings in a particular file. I was so excited when my PR got merged 😁😁😁. The following week, there was a preview release of ODK-X version 2.1.9. and my changes were in there! Talk about joy 😂😂😂.
+
+During the contribution phase, I made a total of six contributions with three merged PRs. Although I experienced a major setback during the proposal submission, which I will talk about later. I would say this journey has been quite eventful, exciting, and thrilling.
+
 **YES, I MADE IT 🎉🎉🎉.  I am here now as an ODK-X Intern in Outreachy 😊**
