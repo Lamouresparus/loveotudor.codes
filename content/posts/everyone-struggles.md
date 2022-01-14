@@ -11,7 +11,7 @@ tags:
 canonical_url: true
 description: This is the second blog in a series of Outreachy Internship blogs.
 ---
-![](/images/uploads/pngitem_3956608.png "It is okay to ask questions")
+![](/images/uploads/pngitem_3956608.png "It is okay to ask questions" width="400" height="100")
 
 **Yay!**
 
