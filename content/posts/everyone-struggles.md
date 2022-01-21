@@ -11,7 +11,7 @@ tags:
 canonical_url: true
 description: This is the second blog in a series of Outreachy Internship blogs.
 ---
-![](/images/uploads/pngitem_3956608.png "It is okay to ask questions" width="400" height="500")
+![](/images/uploads/pngitem_3956608.png "It is okay to ask questions\\" width=\\"400\\" height=\\"500")
 
 **Yay!**
 
@@ -29,9 +29,11 @@ My first task was to find out why the tests were failing on version 8.1 on the b
 
 Which lead me to a couple of links which I will share at the end of this article. After much reading, I Was able to wrap my head around the concept.
 
-A few days later, during our test meeting, I was able to get detailed answers to the questions I had asked.
+> A build server is also known as a  continuous integration server or CI server. It is a  central and stable environment used to automate the integration of code changes from numerous contributors into a software project. The build server builds the code, runs tests, and safely deploys a new software version. It helps eliminate human-prone errors, provides standard feedback to contributors, and speeds up software iterations.
 
-### **So what would I say to someone worried about asking questions?**
+So, a few days later, during our test meeting, I was able to get detailed answers to the questions I had asked.
+
+### **What would I say to someone worried about asking questions?**
 
 Well, I will say ask anyway. Sometimes, even if you do not quite put out the question right, the follow-up answers/questions that don't quite hit the point will help you figure out how best to structure your question and give you a more in-depth understanding. Also, you might learn something you never noticed you didn't know😂. Hey! It's just a question and I don't think there are any perfect questions🤔.
 
