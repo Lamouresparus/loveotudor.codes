@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/odk-x-logo.png
+image: /images/uploads/arnaud-steckle-tpyyldqoxky-unsplash.jpg
 title: Halfway through my journey as an ODK-X Intern
 date: 2022-01-26T13:48:30.174Z
 published: true
