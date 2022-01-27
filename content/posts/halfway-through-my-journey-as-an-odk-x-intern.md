@@ -21,7 +21,7 @@ In this blog post, I will be writing about my community ODK-X and the project I 
 
 Open Data Kit(ODK) is open-source software for mobile data collection in resource-limited settings. Over the last 13 years, ODk has evolved into two individual projects run by separate teams which are: [ODK](https://getodk.org/) and [ODK-X](https://odk-x.org/).
 
-ODK-X is free and open-source software that lets you build customized applications for collecting, managing, and visualizing your data in resource-constrained environments, just as well as you would do in the office. It is majorly used for data collection. What makes it stand out from other data collection apps is the fact that it gives room for data updates and can be used to collect multi-level data. During this internship, I have updating ODK-X tests to use the latest Android Testing Framework.
+ODK-X is free and open-source software that lets you build customized applications for collecting, managing, and visualizing your data in resource-constrained environments, just as well as you would do in the office. It is majorly used for data collection. What makes it stand out from other data collection apps is the fact that it gives room for data updates and can be used to collect multi-level data. During this internship, I have been updating ODK-X tests to use the latest Android Testing Framework.
 
 ### **Ummm, Okay, so what does that mean**❓
 
@@ -43,15 +43,13 @@ When I began contributing to ODK-X, my java knowledge was quite rusty, as I had 
 
 When I got accepted, my first task introduced me to CI/CD, which I talked about in my previous article. I was also a bit skeptical or rather shy when I had to ask questions. 
 
-This was a whole new journey for me and I a super grateful I got the travel tickets 😏. What's more exciting is the fact that I get to be a part of this big problem-solving software used by  world-renowned companies and organizations such as the red cross. In a way, I feel like I am extending my knowledge for the greater good by ensuring that this software is properly tested before it is released.
+This was a whole new journey for me and I am super grateful I got the travel tickets 😏. What's more exciting is the fact that I get to be a part of this big problem-solving software used by  world-renowned companies and organizations such as the red cross. In a way, I feel like I am extending my knowledge for the greater good by ensuring that this software is properly tested before it is released.
 
 Halfway through this internship, I have learned a lot more about android tests, version control, CICD, clear and precise communication, and many others. I have seen so much growth even in my writing 😁. You noticed that too right 😉? **Here is a mental picture**😂: 
 
 ![Omo](/images/uploads/28be92baee76480eb493cc53f96895dc.jpg "Omo")
 
 A few weeks back I used to be the "**Omo**" girl 😂😂😂.
-
-
 
 I look forward to contributing to ODK-X after the end of this internship and probably mentor in the next Outreachy round.\
 \
