@@ -45,13 +45,15 @@ When I got accepted, my first task introduced me to CI/CD, which I talked about 
 
 This was a whole new journey for me and I a super grateful I got the travel tickets 😏. What's more exciting is the fact that I get to be a part of this big problem-solving software used by  world-renowned companies and organizations such as the red cross. In a way, I feel like I am extending my knowledge for the greater good by ensuring that this software is properly tested before it is released.
 
-I look forward to contributing to ODK-X after the end of this internship and probably mentor in the next Outreachy round.
-
 Halfway through this internship, I have learned a lot more about android tests, version control, CICD, clear and precise communication, and many others. I have seen so much growth even in my writing 😁. You noticed that too right 😉? **Here is a mental picture**😂: 
 
 ![Omo](/images/uploads/28be92baee76480eb493cc53f96895dc.jpg "Omo")
 
-A few weeks back I used to be the "**Omo**" girl 😂😂😂.\
+A few weeks back I used to be the "**Omo**" girl 😂😂😂.
+
+
+
+I look forward to contributing to ODK-X after the end of this internship and probably mentor in the next Outreachy round.\
 \
 \
 Thank you for staying this long with me.
