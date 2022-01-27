@@ -39,9 +39,9 @@ The ODK-X Android tools have several Android tests in numerous repositories. Som
 
 ### **The Journey and Hurdles**
 
-When I began contributing to ODK-X, my java was quite rusty, as I had learned and began using kotlin for Android Development a few months back. It was also my first time contributing to open source. I wasn't so good with git too. I also had to brush up on my testing skills. The first time I ever actually wrote a test for a live software was during the contribution phase... I had to do a whole lot of reading and documenting to get a little bit comfortable.
+When I began contributing to ODK-X, my java knowledge was quite rusty, as I had learned and began using kotlin for Android Development a few months back. It was also my first time contributing to open source. I wasn't so good with git too. I also had to brush up on my testing skills. The first time I ever actually wrote a test for a live software was during the contribution phase... I had to do a whole lot of reading and documenting to get a little bit comfortable.
 
-When I got accepted, my first task introduced me to CICD, which I talked about in my previous article. I was also a bit skeptical or rather shy when I had to ask questions. 
+When I got accepted, my first task introduced me to CI/CD, which I talked about in my previous article. I was also a bit skeptical or rather shy when I had to ask questions. 
 
 This was a whole new journey for me and I a super grateful I got the travel tickets 😏. What's more exciting is the fact that I get to be a part of this big problem-solving software used by  world-renowned companies and organizations such as the red cross. In a way, I feel like I am extending my knowledge for the greater good by ensuring that this software is properly tested before it is released.
 
