@@ -23,7 +23,7 @@ Open Data Kit(ODK) is open-source software for mobile data collection in resourc
 
 ODK-X is free and open-source software that lets you build customized applications for collecting, managing, and visualizing your data in resource-constrained environments, just as well as you would do in the office. It is majorly used for data collection. What makes it stand out from other data collection apps is the fact that it gives room for data updates and can be used to collect multi-level data. During this internship, I have updating ODK-X tests to use the latest Android Testing Framework.
 
-### **Ummm, Okay, so what does that mean***❓*
+### **Ummm, Okay, so what does that mean**❓
 
 According to the Oxford dictionary:
 
