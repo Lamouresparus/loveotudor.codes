@@ -68,7 +68,7 @@ I realized that most of the code reviews were for code clean-ups, like oversimpl
 
 #### In All...
 
-Yeah, setting goals is great, but what's more important is taking a step back sometimes to see your tracks so you will know for sure if your current and previous actions are taking you closer to your goals or farther away from them. You can always modify your current actions and make habits of the actions that will take you closer to your goals. This will curb frustrations and give you better confidence and perspective to your goals. You will feel more like the God of your life creating and removing things that are and aren't worthy.
+Yeah, setting goals is great, but what's more important is taking a step back sometimes to see your tracks so you will know for sure if your current and previous actions are taking you closer to your goals or farther away from them. You can always modify your current actions and make habits of the actions that will take you closer to your goals. This will curb frustrations and give you better confidence and perspective to your goals. You will feel more like the god of your life creating and removing things that are and aren't worthy.
 
 This is all from me here, at least for now😊
 
