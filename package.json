@@ -16,7 +16,7 @@
     "@jlengstorf/get-share-image": "^0.7.1",
     "gridsome": "^0.7.0",
     "gridsome-plugin-rss": "^1.2.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "vue-disqus": "^3.0.5"
   },
   "devDependencies": {
