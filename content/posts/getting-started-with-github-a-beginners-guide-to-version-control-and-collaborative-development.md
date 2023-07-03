@@ -5,8 +5,7 @@ title: "Getting Started with GitHub: A Beginner's Guide to Version Control and
 date: 2023-01-10T19:41:24.604Z
 published: true
 tags:
-  - "#GitHubBeginnerGuide #CollaborativeDevelopment #VersionControl101
-    #GitHubTips #GitForBeginners"
+  - "#GitHubBeginnerGuide #CollaborativeDevelopment"
 canonical_url: true
 description: Starting a career in tech, you can easily get overwhelmed by the
   number of languages, frameworks, tools, and platforms available. One popular
