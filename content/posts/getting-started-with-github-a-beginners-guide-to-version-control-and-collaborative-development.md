@@ -2,7 +2,7 @@
 image: /images/uploads/roman-synkevych-wx2l8l-fgea-unsplash.jpg
 title: "Getting Started with GitHub: A Beginner's Guide to Version Control and
   Collaborative Development"
-date: 2023-01-10T19:41:24.604Z
+date: 2023-07-04T22:00:32.671Z
 published: true
 tags:
   - "#GitHubBeginnerGuide #CollaborativeDevelopment"
