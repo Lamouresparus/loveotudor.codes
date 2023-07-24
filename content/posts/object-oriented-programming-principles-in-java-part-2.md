@@ -153,7 +153,7 @@ public class Main {
 
 Running this we get:
 
-![Code output](/images/uploads/screenshot-from-2020-05-28-18-18-51.png "Using getters and setters")public class 
+![Code output](/images/uploads/screenshot-from-2020-05-28-18-18-51.png "Using getters and setters")
 
 With encapsulation, we’ve gained control over our data by restricting the receptionist from assigning negative values.
 
@@ -175,6 +175,8 @@ To achieve this we could:
 1. Create a class called Textbook.
 2. Copy and paste all the code from the Book class into the Textbook class.
 3. Create a subject field with its getters and setters.
+
+
   ```java
  public class TextBook extends Book {
       private String subject;
